@@ -1,8 +1,6 @@
 program Dice
     !Kevin Pirabaharan
-    !ID : 0946212
     !kpirabah@mail.uoguelph.ca
-    !Friday, February 3rd 2017
     !Assignment 1
     !This assignment was a reeingineering of an older Fortran code to a newer standard. Allows user to play game of dice using monte carlo methods
 
