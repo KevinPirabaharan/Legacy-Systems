@@ -9,11 +9,12 @@ In order to compile all the programs you will need the following packages:
 *****************
 ## **1. Game of Dice**
    ### This assignment was a reeingineering of an older Fortran code to a newer standard. Allows user to play game of dice using monte carlo methods
-   >Compile:  **make dice**
 
-   >Run Fortran:  **./bin/diceF95**
+   Compile:  **make dice**
 
-   >Run C: **./bin/diceC**
+   Run Fortran:  **./bin/diceF95**
+
+   Run C: **./bin/diceC**
 
 ## **2. A Knight's Tour**
    ### This program will use numbers inputted by the user and then rewrite them up until the sum is greater than 50.
