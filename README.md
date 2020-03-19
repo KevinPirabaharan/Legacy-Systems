@@ -42,4 +42,4 @@ In order to compile all the programs you will need the following packages:
    Run C: **./bin/sieveC**
 
 **********
-## **make all** command will compile all files
+**make all** command will compile all files
