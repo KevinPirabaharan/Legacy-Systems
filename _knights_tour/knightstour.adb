@@ -1,8 +1,5 @@
 --Kevin Pirabaharan
---ID : 0946212
 --kpirabah@mail.uoguelph.ca
---Saturday, March 4th 2017
---Assignment 2
 --This assignments was to create a program that solves the knights tour while taking user input on the size of the board and that starting position.
 
 --Including the packages for Inputting and outputting text
@@ -18,7 +15,7 @@ procedure knightsTour is
     --This function prints out the solution (if there is one) to the screen and to a file named tour.txt
     procedure solution (boardArray : dimensions; tempBoardSize : Integer) is
     My_File   : File_Type;
-    File_Name : String := "tour.txt";
+    File_Name : String := "_output/tour.txt";
     begin
         Create(File => My_File,
               Mode => Out_File,
@@ -33,7 +30,7 @@ procedure knightsTour is
             New_Line(File => My_File);
         end loop;
         Close(File => My_File);
-        Put_Line("Results have been exported to tour.txt located in the working direcorty of the program!");
+        Put_Line("Results have been exported to tour.txt located in the _output folder!");
     end solution;
 
     --Checks if the knight can land on this position and also to see if the knights hasn't already landed on square already

@@ -1,8 +1,5 @@
 --Kevin Pirabaharan
---ID : 0946212
 --kpirabah@mail.uoguelph.ca
---Saturday, April 4th 2017
---Assignment 4 | C- code
 --This assignments is supposed to take an uppter limit from the user and then output
 --all prime numbers less than or equal to said number in a ASCII file.
 
@@ -13,7 +10,7 @@ with ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with Ada.Calendar; use Ada.Calendar;
 with Ada.Directories;  use Ada.Directories;
 
-procedure atkin is
+procedure sieve is
     limit: Integer;
     My_File   : File_Type;
     File_Name : String := "primeAda_Output.txt";
@@ -132,4 +129,4 @@ begin
   Skip_Line;
   --Calls function
   primeSolver(limit);
-end atkin;
+end sieve;

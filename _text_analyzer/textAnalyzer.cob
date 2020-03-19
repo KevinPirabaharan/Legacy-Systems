@@ -1,12 +1,4 @@
-NO-*Kevin Pirabaharan
-*ID : 0946212
-*kpirabah@mail.uoguelph.ca
-*Saturday, March 26th 2017
-*Assignment 3
-*This assignments was to count various aspects of a string
-
-identification division.
-program-id. KPIRABAHA3.
+program-id. textAnalyzer.
 
 environment division.
 input-output section.

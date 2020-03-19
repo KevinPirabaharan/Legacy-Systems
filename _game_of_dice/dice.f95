@@ -1,13 +1,12 @@
 program Dice
     !Kevin Pirabaharan
     !kpirabah@mail.uoguelph.ca
-    !Assignment 1
-    !This assignment was a reeingineering of an older Fortran code to a newer standard. Allows user to play game of dice using monte carlo methods
+    !This program was a reeingineering of an older Fortran code to a newer standard. Allows user to play game of dice using monte carlo methods
 
     implicit none
 
     !variables
-    integer :: totGames, wins = 0, losses = 0, numGames = 0, point = 0, countSum = 0
+    integer :: totGames, wins = 0, losses = 0, numGames = 0, point = 0
     integer :: i, j, sum, diceRoll
 
     !Prompts
@@ -53,7 +52,11 @@ program Dice
     end do
 
     write (*,*) 'Here are the results'
-    write (*,*) 'Wins =', wins, 'Losses = ', losses, 'I = ', i, 'J = ', j
+    write (*,*)
+    write (*,*) 'Wins =', wins
+    write (*,*) 'Losses = ', losses
+    write (*,*) 'I = ', i
+    write (*,*) 'J = ', j
 
 end program Dice
 

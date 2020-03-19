@@ -1,9 +1,6 @@
 program Atkin
     !Kevin Pirabaharan
-    !ID : 0946212
     !kpirabah@mail.uoguelph.ca
-    !Friday, April 3rd 117
-    !Assignment 4 | C- code
     !This assignments is supposed to take an uppter limit from the user and then output
     !all prime numbers less than or equal to said number in a ASCII file.
 
@@ -49,7 +46,7 @@ program Atkin
     execTime = (endT - startT)
 
     !Finish outputting and close file
-    write (*,*) 'Output written in out_Fortran.txt'
+    write (*,*) 'Output written in primeFor_Output.txt'
     write (1,*) ''
     write (1,*) 'Execution time in seconds: ', execTime
     print '(" Execution time: ",F10.6," millliseconds.")', endT-startT
